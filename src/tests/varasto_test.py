@@ -37,7 +37,7 @@ class TestVarasto(unittest.TestCase):
     def test_lisaa_negatiivinen_maara(self):
         uusi_varasto = Varasto(100, 10)
         uusi_varasto.lisaa_varastoon(-5)
-        self.assertAlmostEqual(uusi_varasto.saldo(10), 10)
+        self.assertAlmostEqual(uusi_varasto.saldo, 10)
 
     def test_oikean_tekstin_palautus(self):
         uusi_varasto = Varasto(100, 10)
