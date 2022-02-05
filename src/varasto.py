@@ -1,5 +1,5 @@
 class Varasto:
-    def __init__(self, tilavuus, alku_saldo = 0):
+    def __init__(self, tilavuusvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv, alku_saldo = 0):
         #tilavuuden oltava 0 tai enemmän, joten sen voi selvittää max-lausekkeella
         self.tilavuus = max(tilavuus, 0.0)
         if alku_saldo < 0.0:
